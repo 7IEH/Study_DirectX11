@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Default">
+      <UniqueIdentifier>{251f400a-b75b-4b80-80ff-588fa26690c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Header">
+      <UniqueIdentifier>{bb10a360-8b72-488c-8ffe-e3b30189a818}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Engine">
+      <UniqueIdentifier>{7c46ccf4-8078-42a7-9f00-44cca3eea974}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Device">
+      <UniqueIdentifier>{4dff7ace-30b8-45f5-b1fc-d29ddcbef1e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entity">
+      <UniqueIdentifier>{423a93da-8a5f-4cbc-aaf0-fe51cf87b4c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Module">
+      <UniqueIdentifier>{552fd2c8-db78-41ae-bb0b-16bc2d97fda6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ShaderCode">
+      <UniqueIdentifier>{f52ded90-32bb-4e49-ba12-1c3aa8ed29df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Manger">
+      <UniqueIdentifier>{79cf1961-9942-4626-9104-44c2ab09a95c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. Level">
+      <UniqueIdentifier>{a7ae6a6c-4525-4e34-9578-972297adae9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Manger\KeyMgr">
+      <UniqueIdentifier>{9f2407fb-71fd-4dbf-a1f4-26af914de3f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Manger\TimeMgr">
+      <UniqueIdentifier>{019d0869-ce96-4d60-94e9-96cf0d4fa76a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Manger\PathMgr">
+      <UniqueIdentifier>{779f7668-c004-4156-910b-138f48b0fb01}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>Default</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Default</Filter>
+    </ClInclude>
+    <ClInclude Include="singleton.h">
+      <Filter>01. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="define.h">
+      <Filter>01. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="global.h">
+      <Filter>01. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="struct.h">
+      <Filter>01. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="EHEngine.h">
+      <Filter>02. Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="EHDevice.h">
+      <Filter>03. Device</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleMath.h">
+      <Filter>Module</Filter>
+    </ClInclude>
+    <ClInclude Include="EHEntity.h">
+      <Filter>Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="EHLevel.h">
+      <Filter>05. Level</Filter>
+    </ClInclude>
+    <ClInclude Include="EHKeyMgr.h">
+      <Filter>04. Manger\KeyMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="EHPathMgr.h">
+      <Filter>04. Manger\PathMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="EHTimeMgr.h">
+      <Filter>04. Manger\TimeMgr</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Engine.cpp">
+      <Filter>Default</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Default</Filter>
+    </ClCompile>
+    <ClCompile Include="EHEngine.cpp">
+      <Filter>02. Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="EHDevice.cpp">
+      <Filter>03. Device</Filter>
+    </ClCompile>
+    <ClCompile Include="EHEntity.cpp">
+      <Filter>Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="EHLevel.cpp">
+      <Filter>05. Level</Filter>
+    </ClCompile>
+    <ClCompile Include="EHKeyMgr.cpp">
+      <Filter>04. Manger\KeyMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="EHPathMgr.cpp">
+      <Filter>04. Manger\PathMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="EHTimeMgr.cpp">
+      <Filter>04. Manger\TimeMgr</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="SimpleMath.inl">
+      <Filter>Module</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="std2d.fx">
+      <Filter>ShaderCode</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>
